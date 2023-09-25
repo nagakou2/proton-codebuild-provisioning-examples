@@ -11,6 +11,7 @@ const stackName = input.environment.name;
 
 const app = new App();
 
+
 new VpcEcsClusterStack(app, "ProtonEnv", {
   env: protonEnv,
   stackName: stackName,
